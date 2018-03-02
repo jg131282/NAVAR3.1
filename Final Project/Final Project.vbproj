@@ -186,6 +186,48 @@
   <ItemGroup>
     <None Include="Resources\Firegifthat-works.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Evil Robot %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\llama.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Laser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mini Dragon DRKBL.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Resident evil guy.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\helpmegif.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Baby Dragon %28black%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lava Low res.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dragon.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BLUE nut.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BLUE wrench.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Key.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mini DragonTAN.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trickgif.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

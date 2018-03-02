@@ -24,91 +24,358 @@ Partial Class Dungeon_Up
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Dungeon_Up))
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
+        Me.pbHealth = New System.Windows.Forms.ProgressBar()
+        Me.Timer3 = New System.Windows.Forms.Timer(Me.components)
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.drag = New System.Windows.Forms.PictureBox()
+        Me.FireMT = New System.Windows.Forms.PictureBox()
+        Me.FireMD = New System.Windows.Forms.PictureBox()
+        Me.picTalk = New System.Windows.Forms.PictureBox()
+        Me.obsticle17 = New System.Windows.Forms.PictureBox()
+        Me.obsticle16 = New System.Windows.Forms.PictureBox()
+        Me.obsticle18 = New System.Windows.Forms.PictureBox()
+        Me.FireMid2 = New System.Windows.Forms.PictureBox()
+        Me.Lava6 = New System.Windows.Forms.PictureBox()
+        Me.Lava7 = New System.Windows.Forms.PictureBox()
+        Me.Lava8 = New System.Windows.Forms.PictureBox()
+        Me.obsticle7 = New System.Windows.Forms.PictureBox()
+        Me.Lava5 = New System.Windows.Forms.PictureBox()
+        Me.Lava4 = New System.Windows.Forms.PictureBox()
+        Me.Lava3 = New System.Windows.Forms.PictureBox()
+        Me.Lava2 = New System.Windows.Forms.PictureBox()
+        Me.Lava1 = New System.Windows.Forms.PictureBox()
+        Me.obsticle14 = New System.Windows.Forms.PictureBox()
+        Me.obsticle15 = New System.Windows.Forms.PictureBox()
+        Me.obsticle13 = New System.Windows.Forms.PictureBox()
+        Me.obsticle12 = New System.Windows.Forms.PictureBox()
+        Me.FireDown2 = New System.Windows.Forms.PictureBox()
+        Me.FireTop2 = New System.Windows.Forms.PictureBox()
         Me.playerLeft = New System.Windows.Forms.PictureBox()
         Me.playerDown = New System.Windows.Forms.PictureBox()
         Me.playerRight = New System.Windows.Forms.PictureBox()
         Me.playerUp = New System.Windows.Forms.PictureBox()
         Me.picKey = New System.Windows.Forms.PictureBox()
         Me.obsticle11 = New System.Windows.Forms.PictureBox()
-        Me.drag = New System.Windows.Forms.PictureBox()
         Me.obsticle4 = New System.Windows.Forms.PictureBox()
         Me.obsticle3 = New System.Windows.Forms.PictureBox()
         Me.obsticle2 = New System.Windows.Forms.PictureBox()
         Me.obsticle5 = New System.Windows.Forms.PictureBox()
         Me.obsticle8 = New System.Windows.Forms.PictureBox()
-        Me.obsticle7 = New System.Windows.Forms.PictureBox()
         Me.down = New System.Windows.Forms.PictureBox()
         Me.obsticle6 = New System.Windows.Forms.PictureBox()
         Me.obsticle = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.FireDown2 = New System.Windows.Forms.PictureBox()
-        Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
-        Me.obsticle12 = New System.Windows.Forms.PictureBox()
-        Me.obsticle13 = New System.Windows.Forms.PictureBox()
-        Me.obsticle15 = New System.Windows.Forms.PictureBox()
-        Me.obsticle14 = New System.Windows.Forms.PictureBox()
-        Me.pbHealth = New System.Windows.Forms.ProgressBar()
-        Me.Lava1 = New System.Windows.Forms.PictureBox()
-        Me.Lava2 = New System.Windows.Forms.PictureBox()
-        Me.Lava3 = New System.Windows.Forms.PictureBox()
-        Me.Lava4 = New System.Windows.Forms.PictureBox()
-        Me.Lava5 = New System.Windows.Forms.PictureBox()
-        Me.Lava8 = New System.Windows.Forms.PictureBox()
-        Me.Lava7 = New System.Windows.Forms.PictureBox()
-        Me.Lava6 = New System.Windows.Forms.PictureBox()
-        Me.Timer3 = New System.Windows.Forms.Timer(Me.components)
-        Me.FireMid2 = New System.Windows.Forms.PictureBox()
-        Me.obsticle18 = New System.Windows.Forms.PictureBox()
-        Me.obsticle16 = New System.Windows.Forms.PictureBox()
-        Me.obsticle17 = New System.Windows.Forms.PictureBox()
-        Me.picTalk = New System.Windows.Forms.PictureBox()
-        Me.FireTop2 = New System.Windows.Forms.PictureBox()
-        Me.FireMD = New System.Windows.Forms.PictureBox()
-        Me.FireMT = New System.Windows.Forms.PictureBox()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.drag, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.FireMT, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.FireMD, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picTalk, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.obsticle17, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.obsticle16, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.obsticle18, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.FireMid2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Lava6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Lava7, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Lava8, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.obsticle7, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Lava5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Lava4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Lava3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Lava2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Lava1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.obsticle14, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.obsticle15, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.obsticle13, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.obsticle12, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.FireDown2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.FireTop2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.playerLeft, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.playerDown, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.playerRight, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.playerUp, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picKey, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.obsticle11, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.drag, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.obsticle4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.obsticle3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.obsticle2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.obsticle5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.obsticle8, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.obsticle7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.down, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.obsticle6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.obsticle, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.FireDown2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.obsticle12, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.obsticle13, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.obsticle15, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.obsticle14, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Lava1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Lava2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Lava3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Lava4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Lava5, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Lava8, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Lava7, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Lava6, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.FireMid2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.obsticle18, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.obsticle16, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.obsticle17, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.picTalk, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.FireTop2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.FireMD, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.FireMT, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
+        '
+        'Timer1
+        '
+        Me.Timer1.Enabled = True
+        Me.Timer1.Interval = 40
+        '
+        'Timer2
+        '
+        Me.Timer2.Enabled = True
+        Me.Timer2.Interval = 2000
+        '
+        'pbHealth
+        '
+        Me.pbHealth.Location = New System.Drawing.Point(138, 55)
+        Me.pbHealth.Name = "pbHealth"
+        Me.pbHealth.Size = New System.Drawing.Size(282, 23)
+        Me.pbHealth.TabIndex = 71
+        Me.pbHealth.Value = 100
+        '
+        'Timer3
+        '
+        Me.Timer3.Enabled = True
+        Me.Timer3.Interval = 250
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.Image = Global.Final_Project.My.Resources.Resources.Trickgif
+        Me.PictureBox4.Location = New System.Drawing.Point(843, 245)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(76, 70)
+        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox4.TabIndex = 95
+        Me.PictureBox4.TabStop = False
+        '
+        'drag
+        '
+        Me.drag.BackColor = System.Drawing.Color.MediumTurquoise
+        Me.drag.Image = Global.Final_Project.My.Resources.Resources.Dragon
+        Me.drag.Location = New System.Drawing.Point(871, 266)
+        Me.drag.Name = "drag"
+        Me.drag.Size = New System.Drawing.Size(218, 205)
+        Me.drag.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.drag.TabIndex = 16
+        Me.drag.TabStop = False
+        '
+        'FireMT
+        '
+        Me.FireMT.Image = Global.Final_Project.My.Resources.Resources.BLUE_wrench
+        Me.FireMT.Location = New System.Drawing.Point(1039, 310)
+        Me.FireMT.Name = "FireMT"
+        Me.FireMT.Size = New System.Drawing.Size(30, 26)
+        Me.FireMT.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.FireMT.TabIndex = 94
+        Me.FireMT.TabStop = False
+        '
+        'FireMD
+        '
+        Me.FireMD.Image = Global.Final_Project.My.Resources.Resources.BLUE_wrench
+        Me.FireMD.Location = New System.Drawing.Point(1039, 399)
+        Me.FireMD.Name = "FireMD"
+        Me.FireMD.Size = New System.Drawing.Size(30, 26)
+        Me.FireMD.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.FireMD.TabIndex = 93
+        Me.FireMD.TabStop = False
+        '
+        'picTalk
+        '
+        Me.picTalk.Image = CType(resources.GetObject("picTalk.Image"), System.Drawing.Image)
+        Me.picTalk.Location = New System.Drawing.Point(307, 306)
+        Me.picTalk.Name = "picTalk"
+        Me.picTalk.Size = New System.Drawing.Size(16, 89)
+        Me.picTalk.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picTalk.TabIndex = 92
+        Me.picTalk.TabStop = False
+        Me.picTalk.Visible = False
+        '
+        'obsticle17
+        '
+        Me.obsticle17.Image = CType(resources.GetObject("obsticle17.Image"), System.Drawing.Image)
+        Me.obsticle17.Location = New System.Drawing.Point(1174, 300)
+        Me.obsticle17.Name = "obsticle17"
+        Me.obsticle17.Size = New System.Drawing.Size(16, 140)
+        Me.obsticle17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.obsticle17.TabIndex = 91
+        Me.obsticle17.TabStop = False
+        '
+        'obsticle16
+        '
+        Me.obsticle16.Image = CType(resources.GetObject("obsticle16.Image"), System.Drawing.Image)
+        Me.obsticle16.Location = New System.Drawing.Point(1088, 300)
+        Me.obsticle16.Name = "obsticle16"
+        Me.obsticle16.Size = New System.Drawing.Size(93, 15)
+        Me.obsticle16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.obsticle16.TabIndex = 90
+        Me.obsticle16.TabStop = False
+        '
+        'obsticle18
+        '
+        Me.obsticle18.Image = CType(resources.GetObject("obsticle18.Image"), System.Drawing.Image)
+        Me.obsticle18.Location = New System.Drawing.Point(1086, 425)
+        Me.obsticle18.Name = "obsticle18"
+        Me.obsticle18.Size = New System.Drawing.Size(93, 15)
+        Me.obsticle18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.obsticle18.TabIndex = 89
+        Me.obsticle18.TabStop = False
+        '
+        'FireMid2
+        '
+        Me.FireMid2.Image = Global.Final_Project.My.Resources.Resources.BLUE_nut
+        Me.FireMid2.Location = New System.Drawing.Point(1039, 351)
+        Me.FireMid2.Name = "FireMid2"
+        Me.FireMid2.Size = New System.Drawing.Size(30, 27)
+        Me.FireMid2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.FireMid2.TabIndex = 88
+        Me.FireMid2.TabStop = False
+        '
+        'Lava6
+        '
+        Me.Lava6.Image = Global.Final_Project.My.Resources.Resources.Lava_Low_res
+        Me.Lava6.Location = New System.Drawing.Point(696, 473)
+        Me.Lava6.Name = "Lava6"
+        Me.Lava6.Size = New System.Drawing.Size(152, 133)
+        Me.Lava6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Lava6.TabIndex = 87
+        Me.Lava6.TabStop = False
+        '
+        'Lava7
+        '
+        Me.Lava7.Image = Global.Final_Project.My.Resources.Resources.Lava_Low_res
+        Me.Lava7.Location = New System.Drawing.Point(843, 473)
+        Me.Lava7.Name = "Lava7"
+        Me.Lava7.Size = New System.Drawing.Size(125, 133)
+        Me.Lava7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Lava7.TabIndex = 86
+        Me.Lava7.TabStop = False
+        '
+        'Lava8
+        '
+        Me.Lava8.Image = Global.Final_Project.My.Resources.Resources.Lava_Low_res
+        Me.Lava8.Location = New System.Drawing.Point(964, 473)
+        Me.Lava8.Name = "Lava8"
+        Me.Lava8.Size = New System.Drawing.Size(125, 133)
+        Me.Lava8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Lava8.TabIndex = 85
+        Me.Lava8.TabStop = False
+        '
+        'obsticle7
+        '
+        Me.obsticle7.Image = CType(resources.GetObject("obsticle7.Image"), System.Drawing.Image)
+        Me.obsticle7.Location = New System.Drawing.Point(1088, 126)
+        Me.obsticle7.Name = "obsticle7"
+        Me.obsticle7.Size = New System.Drawing.Size(16, 178)
+        Me.obsticle7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.obsticle7.TabIndex = 7
+        Me.obsticle7.TabStop = False
+        '
+        'Lava5
+        '
+        Me.Lava5.Image = Global.Final_Project.My.Resources.Resources.Lava_Low_res
+        Me.Lava5.Location = New System.Drawing.Point(944, 126)
+        Me.Lava5.Name = "Lava5"
+        Me.Lava5.Size = New System.Drawing.Size(160, 134)
+        Me.Lava5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Lava5.TabIndex = 77
+        Me.Lava5.TabStop = False
+        '
+        'Lava4
+        '
+        Me.Lava4.Image = Global.Final_Project.My.Resources.Resources.Lava_Low_res
+        Me.Lava4.Location = New System.Drawing.Point(791, 126)
+        Me.Lava4.Name = "Lava4"
+        Me.Lava4.Size = New System.Drawing.Size(160, 134)
+        Me.Lava4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Lava4.TabIndex = 76
+        Me.Lava4.TabStop = False
+        '
+        'Lava3
+        '
+        Me.Lava3.Image = Global.Final_Project.My.Resources.Resources.Lava_Low_res
+        Me.Lava3.Location = New System.Drawing.Point(635, 126)
+        Me.Lava3.Name = "Lava3"
+        Me.Lava3.Size = New System.Drawing.Size(160, 134)
+        Me.Lava3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Lava3.TabIndex = 75
+        Me.Lava3.TabStop = False
+        '
+        'Lava2
+        '
+        Me.Lava2.Image = Global.Final_Project.My.Resources.Resources.Lava_Low_res
+        Me.Lava2.Location = New System.Drawing.Point(480, 126)
+        Me.Lava2.Name = "Lava2"
+        Me.Lava2.Size = New System.Drawing.Size(160, 134)
+        Me.Lava2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Lava2.TabIndex = 74
+        Me.Lava2.TabStop = False
+        '
+        'Lava1
+        '
+        Me.Lava1.Image = Global.Final_Project.My.Resources.Resources.Lava_Low_res
+        Me.Lava1.Location = New System.Drawing.Point(318, 126)
+        Me.Lava1.Name = "Lava1"
+        Me.Lava1.Size = New System.Drawing.Size(165, 134)
+        Me.Lava1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Lava1.TabIndex = 72
+        Me.Lava1.TabStop = False
+        '
+        'obsticle14
+        '
+        Me.obsticle14.Image = CType(resources.GetObject("obsticle14.Image"), System.Drawing.Image)
+        Me.obsticle14.Location = New System.Drawing.Point(307, 399)
+        Me.obsticle14.Name = "obsticle14"
+        Me.obsticle14.Size = New System.Drawing.Size(16, 89)
+        Me.obsticle14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.obsticle14.TabIndex = 70
+        Me.obsticle14.TabStop = False
+        '
+        'obsticle15
+        '
+        Me.obsticle15.Image = CType(resources.GetObject("obsticle15.Image"), System.Drawing.Image)
+        Me.obsticle15.Location = New System.Drawing.Point(307, 126)
+        Me.obsticle15.Name = "obsticle15"
+        Me.obsticle15.Size = New System.Drawing.Size(16, 174)
+        Me.obsticle15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.obsticle15.TabIndex = 68
+        Me.obsticle15.TabStop = False
+        '
+        'obsticle13
+        '
+        Me.obsticle13.Image = CType(resources.GetObject("obsticle13.Image"), System.Drawing.Image)
+        Me.obsticle13.Location = New System.Drawing.Point(307, 473)
+        Me.obsticle13.Name = "obsticle13"
+        Me.obsticle13.Size = New System.Drawing.Size(390, 15)
+        Me.obsticle13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.obsticle13.TabIndex = 67
+        Me.obsticle13.TabStop = False
+        '
+        'obsticle12
+        '
+        Me.obsticle12.Image = CType(resources.GetObject("obsticle12.Image"), System.Drawing.Image)
+        Me.obsticle12.Location = New System.Drawing.Point(681, 489)
+        Me.obsticle12.Name = "obsticle12"
+        Me.obsticle12.Size = New System.Drawing.Size(16, 153)
+        Me.obsticle12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.obsticle12.TabIndex = 66
+        Me.obsticle12.TabStop = False
+        '
+        'FireDown2
+        '
+        Me.FireDown2.Image = Global.Final_Project.My.Resources.Resources.BLUE_nut
+        Me.FireDown2.Location = New System.Drawing.Point(1039, 444)
+        Me.FireDown2.Name = "FireDown2"
+        Me.FireDown2.Size = New System.Drawing.Size(30, 27)
+        Me.FireDown2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.FireDown2.TabIndex = 65
+        Me.FireDown2.TabStop = False
+        '
+        'FireTop2
+        '
+        Me.FireTop2.Image = Global.Final_Project.My.Resources.Resources.BLUE_nut
+        Me.FireTop2.Location = New System.Drawing.Point(1039, 266)
+        Me.FireTop2.Name = "FireTop2"
+        Me.FireTop2.Size = New System.Drawing.Size(30, 26)
+        Me.FireTop2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.FireTop2.TabIndex = 58
+        Me.FireTop2.TabStop = False
         '
         'playerLeft
         '
@@ -152,7 +419,7 @@ Partial Class Dungeon_Up
         '
         'picKey
         '
-        Me.picKey.Image = CType(resources.GetObject("picKey.Image"), System.Drawing.Image)
+        Me.picKey.Image = Global.Final_Project.My.Resources.Resources.Key
         Me.picKey.Location = New System.Drawing.Point(1095, 351)
         Me.picKey.Name = "picKey"
         Me.picKey.Size = New System.Drawing.Size(51, 44)
@@ -169,17 +436,6 @@ Partial Class Dungeon_Up
         Me.obsticle11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.obsticle11.TabIndex = 17
         Me.obsticle11.TabStop = False
-        '
-        'drag
-        '
-        Me.drag.BackColor = System.Drawing.Color.MediumTurquoise
-        Me.drag.Image = CType(resources.GetObject("drag.Image"), System.Drawing.Image)
-        Me.drag.Location = New System.Drawing.Point(897, 266)
-        Me.drag.Name = "drag"
-        Me.drag.Size = New System.Drawing.Size(172, 205)
-        Me.drag.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.drag.TabIndex = 16
-        Me.drag.TabStop = False
         '
         'obsticle4
         '
@@ -230,16 +486,6 @@ Partial Class Dungeon_Up
         Me.obsticle8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.obsticle8.TabIndex = 8
         Me.obsticle8.TabStop = False
-        '
-        'obsticle7
-        '
-        Me.obsticle7.Image = CType(resources.GetObject("obsticle7.Image"), System.Drawing.Image)
-        Me.obsticle7.Location = New System.Drawing.Point(1088, 126)
-        Me.obsticle7.Name = "obsticle7"
-        Me.obsticle7.Size = New System.Drawing.Size(16, 178)
-        Me.obsticle7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.obsticle7.TabIndex = 7
-        Me.obsticle7.TabStop = False
         '
         'down
         '
@@ -301,245 +547,12 @@ Partial Class Dungeon_Up
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
-        'Timer1
-        '
-        Me.Timer1.Enabled = True
-        Me.Timer1.Interval = 40
-        '
-        'FireDown2
-        '
-        Me.FireDown2.Image = Global.Final_Project.My.Resources.Resources.Firegifthat_works
-        Me.FireDown2.Location = New System.Drawing.Point(1039, 444)
-        Me.FireDown2.Name = "FireDown2"
-        Me.FireDown2.Size = New System.Drawing.Size(30, 27)
-        Me.FireDown2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.FireDown2.TabIndex = 65
-        Me.FireDown2.TabStop = False
-        '
-        'Timer2
-        '
-        Me.Timer2.Enabled = True
-        Me.Timer2.Interval = 2000
-        '
-        'obsticle12
-        '
-        Me.obsticle12.Image = CType(resources.GetObject("obsticle12.Image"), System.Drawing.Image)
-        Me.obsticle12.Location = New System.Drawing.Point(681, 489)
-        Me.obsticle12.Name = "obsticle12"
-        Me.obsticle12.Size = New System.Drawing.Size(16, 153)
-        Me.obsticle12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.obsticle12.TabIndex = 66
-        Me.obsticle12.TabStop = False
-        '
-        'obsticle13
-        '
-        Me.obsticle13.Image = CType(resources.GetObject("obsticle13.Image"), System.Drawing.Image)
-        Me.obsticle13.Location = New System.Drawing.Point(307, 473)
-        Me.obsticle13.Name = "obsticle13"
-        Me.obsticle13.Size = New System.Drawing.Size(390, 15)
-        Me.obsticle13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.obsticle13.TabIndex = 67
-        Me.obsticle13.TabStop = False
-        '
-        'obsticle15
-        '
-        Me.obsticle15.Image = CType(resources.GetObject("obsticle15.Image"), System.Drawing.Image)
-        Me.obsticle15.Location = New System.Drawing.Point(307, 126)
-        Me.obsticle15.Name = "obsticle15"
-        Me.obsticle15.Size = New System.Drawing.Size(16, 174)
-        Me.obsticle15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.obsticle15.TabIndex = 68
-        Me.obsticle15.TabStop = False
-        '
-        'obsticle14
-        '
-        Me.obsticle14.Image = CType(resources.GetObject("obsticle14.Image"), System.Drawing.Image)
-        Me.obsticle14.Location = New System.Drawing.Point(307, 399)
-        Me.obsticle14.Name = "obsticle14"
-        Me.obsticle14.Size = New System.Drawing.Size(16, 89)
-        Me.obsticle14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.obsticle14.TabIndex = 70
-        Me.obsticle14.TabStop = False
-        '
-        'pbHealth
-        '
-        Me.pbHealth.Location = New System.Drawing.Point(138, 55)
-        Me.pbHealth.Name = "pbHealth"
-        Me.pbHealth.Size = New System.Drawing.Size(282, 23)
-        Me.pbHealth.TabIndex = 71
-        Me.pbHealth.Value = 100
-        '
-        'Lava1
-        '
-        Me.Lava1.Image = CType(resources.GetObject("Lava1.Image"), System.Drawing.Image)
-        Me.Lava1.Location = New System.Drawing.Point(318, 126)
-        Me.Lava1.Name = "Lava1"
-        Me.Lava1.Size = New System.Drawing.Size(165, 134)
-        Me.Lava1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Lava1.TabIndex = 72
-        Me.Lava1.TabStop = False
-        '
-        'Lava2
-        '
-        Me.Lava2.Image = CType(resources.GetObject("Lava2.Image"), System.Drawing.Image)
-        Me.Lava2.Location = New System.Drawing.Point(480, 126)
-        Me.Lava2.Name = "Lava2"
-        Me.Lava2.Size = New System.Drawing.Size(160, 134)
-        Me.Lava2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Lava2.TabIndex = 74
-        Me.Lava2.TabStop = False
-        '
-        'Lava3
-        '
-        Me.Lava3.Image = CType(resources.GetObject("Lava3.Image"), System.Drawing.Image)
-        Me.Lava3.Location = New System.Drawing.Point(635, 126)
-        Me.Lava3.Name = "Lava3"
-        Me.Lava3.Size = New System.Drawing.Size(160, 134)
-        Me.Lava3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Lava3.TabIndex = 75
-        Me.Lava3.TabStop = False
-        '
-        'Lava4
-        '
-        Me.Lava4.Image = CType(resources.GetObject("Lava4.Image"), System.Drawing.Image)
-        Me.Lava4.Location = New System.Drawing.Point(791, 126)
-        Me.Lava4.Name = "Lava4"
-        Me.Lava4.Size = New System.Drawing.Size(160, 134)
-        Me.Lava4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Lava4.TabIndex = 76
-        Me.Lava4.TabStop = False
-        '
-        'Lava5
-        '
-        Me.Lava5.Image = CType(resources.GetObject("Lava5.Image"), System.Drawing.Image)
-        Me.Lava5.Location = New System.Drawing.Point(944, 126)
-        Me.Lava5.Name = "Lava5"
-        Me.Lava5.Size = New System.Drawing.Size(160, 134)
-        Me.Lava5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Lava5.TabIndex = 77
-        Me.Lava5.TabStop = False
-        '
-        'Lava8
-        '
-        Me.Lava8.Image = CType(resources.GetObject("Lava8.Image"), System.Drawing.Image)
-        Me.Lava8.Location = New System.Drawing.Point(964, 473)
-        Me.Lava8.Name = "Lava8"
-        Me.Lava8.Size = New System.Drawing.Size(125, 133)
-        Me.Lava8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Lava8.TabIndex = 85
-        Me.Lava8.TabStop = False
-        '
-        'Lava7
-        '
-        Me.Lava7.Image = CType(resources.GetObject("Lava7.Image"), System.Drawing.Image)
-        Me.Lava7.Location = New System.Drawing.Point(843, 473)
-        Me.Lava7.Name = "Lava7"
-        Me.Lava7.Size = New System.Drawing.Size(125, 133)
-        Me.Lava7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Lava7.TabIndex = 86
-        Me.Lava7.TabStop = False
-        '
-        'Lava6
-        '
-        Me.Lava6.Image = CType(resources.GetObject("Lava6.Image"), System.Drawing.Image)
-        Me.Lava6.Location = New System.Drawing.Point(696, 473)
-        Me.Lava6.Name = "Lava6"
-        Me.Lava6.Size = New System.Drawing.Size(152, 133)
-        Me.Lava6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Lava6.TabIndex = 87
-        Me.Lava6.TabStop = False
-        '
-        'Timer3
-        '
-        Me.Timer3.Enabled = True
-        Me.Timer3.Interval = 250
-        '
-        'FireMid2
-        '
-        Me.FireMid2.Image = Global.Final_Project.My.Resources.Resources.Firegifthat_works
-        Me.FireMid2.Location = New System.Drawing.Point(1039, 351)
-        Me.FireMid2.Name = "FireMid2"
-        Me.FireMid2.Size = New System.Drawing.Size(30, 27)
-        Me.FireMid2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.FireMid2.TabIndex = 88
-        Me.FireMid2.TabStop = False
-        '
-        'obsticle18
-        '
-        Me.obsticle18.Image = CType(resources.GetObject("obsticle18.Image"), System.Drawing.Image)
-        Me.obsticle18.Location = New System.Drawing.Point(1086, 425)
-        Me.obsticle18.Name = "obsticle18"
-        Me.obsticle18.Size = New System.Drawing.Size(93, 15)
-        Me.obsticle18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.obsticle18.TabIndex = 89
-        Me.obsticle18.TabStop = False
-        '
-        'obsticle16
-        '
-        Me.obsticle16.Image = CType(resources.GetObject("obsticle16.Image"), System.Drawing.Image)
-        Me.obsticle16.Location = New System.Drawing.Point(1088, 300)
-        Me.obsticle16.Name = "obsticle16"
-        Me.obsticle16.Size = New System.Drawing.Size(93, 15)
-        Me.obsticle16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.obsticle16.TabIndex = 90
-        Me.obsticle16.TabStop = False
-        '
-        'obsticle17
-        '
-        Me.obsticle17.Image = CType(resources.GetObject("obsticle17.Image"), System.Drawing.Image)
-        Me.obsticle17.Location = New System.Drawing.Point(1174, 300)
-        Me.obsticle17.Name = "obsticle17"
-        Me.obsticle17.Size = New System.Drawing.Size(16, 140)
-        Me.obsticle17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.obsticle17.TabIndex = 91
-        Me.obsticle17.TabStop = False
-        '
-        'picTalk
-        '
-        Me.picTalk.Image = CType(resources.GetObject("picTalk.Image"), System.Drawing.Image)
-        Me.picTalk.Location = New System.Drawing.Point(307, 306)
-        Me.picTalk.Name = "picTalk"
-        Me.picTalk.Size = New System.Drawing.Size(16, 89)
-        Me.picTalk.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.picTalk.TabIndex = 92
-        Me.picTalk.TabStop = False
-        Me.picTalk.Visible = False
-        '
-        'FireTop2
-        '
-        Me.FireTop2.Image = CType(resources.GetObject("FireTop2.Image"), System.Drawing.Image)
-        Me.FireTop2.Location = New System.Drawing.Point(1039, 266)
-        Me.FireTop2.Name = "FireTop2"
-        Me.FireTop2.Size = New System.Drawing.Size(30, 26)
-        Me.FireTop2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.FireTop2.TabIndex = 58
-        Me.FireTop2.TabStop = False
-        '
-        'FireMD
-        '
-        Me.FireMD.Image = CType(resources.GetObject("FireMD.Image"), System.Drawing.Image)
-        Me.FireMD.Location = New System.Drawing.Point(1039, 399)
-        Me.FireMD.Name = "FireMD"
-        Me.FireMD.Size = New System.Drawing.Size(30, 26)
-        Me.FireMD.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.FireMD.TabIndex = 93
-        Me.FireMD.TabStop = False
-        '
-        'FireMT
-        '
-        Me.FireMT.Image = CType(resources.GetObject("FireMT.Image"), System.Drawing.Image)
-        Me.FireMT.Location = New System.Drawing.Point(1039, 310)
-        Me.FireMT.Name = "FireMT"
-        Me.FireMT.Size = New System.Drawing.Size(30, 26)
-        Me.FireMT.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.FireMT.TabIndex = 94
-        Me.FireMT.TabStop = False
-        '
         'Dungeon_Up
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1244, 739)
+        Me.Controls.Add(Me.PictureBox4)
         Me.Controls.Add(Me.drag)
         Me.Controls.Add(Me.FireMT)
         Me.Controls.Add(Me.FireMD)
@@ -585,46 +598,47 @@ Partial Class Dungeon_Up
         Me.Name = "Dungeon_Up"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Dungeon_Up"
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.drag, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.FireMT, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.FireMD, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picTalk, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.obsticle17, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.obsticle16, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.obsticle18, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.FireMid2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Lava6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Lava7, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Lava8, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.obsticle7, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Lava5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Lava4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Lava3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Lava2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Lava1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.obsticle14, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.obsticle15, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.obsticle13, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.obsticle12, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.FireDown2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.FireTop2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.playerLeft, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.playerDown, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.playerRight, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.playerUp, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picKey, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.obsticle11, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.drag, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.obsticle4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.obsticle3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.obsticle2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.obsticle5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.obsticle8, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.obsticle7, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.down, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.obsticle6, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.obsticle, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.FireDown2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.obsticle12, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.obsticle13, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.obsticle15, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.obsticle14, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Lava1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Lava2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Lava3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Lava4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Lava5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Lava8, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Lava7, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Lava6, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.FireMid2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.obsticle18, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.obsticle16, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.obsticle17, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.picTalk, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.FireTop2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.FireMD, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.FireMT, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -672,4 +686,5 @@ Partial Class Dungeon_Up
     Friend WithEvents FireTop2 As System.Windows.Forms.PictureBox
     Friend WithEvents FireMD As System.Windows.Forms.PictureBox
     Friend WithEvents FireMT As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox4 As System.Windows.Forms.PictureBox
 End Class

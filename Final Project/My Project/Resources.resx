@@ -121,22 +121,64 @@
   <data name="Title_Theme" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Title Theme.url;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="LinkDown1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LinkDown2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="llama" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\llama.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LinkDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LinkDown1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Right4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Right41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="BLUE wrench" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BLUE wrench.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="LinkUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LinkUp1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Hero_Of_Inspiration_Medley_1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Hero_Of_Inspiration_Medley_1_.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Dragon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dragon.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Right4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Right41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LinkDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LinkDown1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mini Dragon DRKBL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mini Dragon DRKBL.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Laser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Laser.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Evil Robot (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Evil Robot (2).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="helpmegif" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\helpmegif.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Resident evil guy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Resident evil guy.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Key" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Key.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Baby Dragon (black)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Baby Dragon (black).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BLUE nut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BLUE nut.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LinkDown1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LinkDown2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Firegifthat-works" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Firegifthat-works.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lava Low res" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lava Low res.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hero_Of_Inspiration_Medley_1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hero_Of_Inspiration_Medley_1_.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Mini DragonTAN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mini DragonTAN.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Trickgif" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Trickgif.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
