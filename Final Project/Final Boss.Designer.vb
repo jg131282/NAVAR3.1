@@ -364,7 +364,7 @@ Partial Class Final_Boss
         '
         'Lava3
         '
-        Me.Lava3.Image = CType(resources.GetObject("Lava3.Image"), System.Drawing.Image)
+        Me.Lava3.Image = Global.Final_Project.My.Resources.Resources.Lava_Low_res
         Me.Lava3.Location = New System.Drawing.Point(603, 328)
         Me.Lava3.Name = "Lava3"
         Me.Lava3.Size = New System.Drawing.Size(112, 93)
@@ -374,7 +374,7 @@ Partial Class Final_Boss
         '
         'Lava2
         '
-        Me.Lava2.Image = CType(resources.GetObject("Lava2.Image"), System.Drawing.Image)
+        Me.Lava2.Image = Global.Final_Project.My.Resources.Resources.Lava_Low_res
         Me.Lava2.Location = New System.Drawing.Point(500, 328)
         Me.Lava2.Name = "Lava2"
         Me.Lava2.Size = New System.Drawing.Size(112, 93)
@@ -443,7 +443,7 @@ Partial Class Final_Boss
         Me.picMonster3.BackColor = System.Drawing.Color.Transparent
         Me.picMonster3.Cursor = System.Windows.Forms.Cursors.Cross
         Me.picMonster3.Image = Global.Final_Project.My.Resources.Resources.Mini_Dragon_DRKBL
-        Me.picMonster3.Location = New System.Drawing.Point(1052, 198)
+        Me.picMonster3.Location = New System.Drawing.Point(1036, 197)
         Me.picMonster3.Name = "picMonster3"
         Me.picMonster3.Size = New System.Drawing.Size(37, 35)
         Me.picMonster3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -455,7 +455,7 @@ Partial Class Final_Boss
         Me.hitBox3.Cursor = System.Windows.Forms.Cursors.Cross
         Me.hitBox3.Location = New System.Drawing.Point(984, 145)
         Me.hitBox3.Name = "hitBox3"
-        Me.hitBox3.Size = New System.Drawing.Size(152, 136)
+        Me.hitBox3.Size = New System.Drawing.Size(141, 134)
         Me.hitBox3.TabIndex = 50
         Me.hitBox3.TabStop = False
         Me.hitBox3.Visible = False
@@ -472,7 +472,7 @@ Partial Class Final_Boss
         '
         'Lava1
         '
-        Me.Lava1.Image = CType(resources.GetObject("Lava1.Image"), System.Drawing.Image)
+        Me.Lava1.Image = Global.Final_Project.My.Resources.Resources.Lava_Low_res
         Me.Lava1.Location = New System.Drawing.Point(398, 328)
         Me.Lava1.Name = "Lava1"
         Me.Lava1.Size = New System.Drawing.Size(112, 93)

@@ -138,7 +138,7 @@ Partial Class Dungeon_Up
         'PictureBox4
         '
         Me.PictureBox4.Image = Global.Final_Project.My.Resources.Resources.Trickgif
-        Me.PictureBox4.Location = New System.Drawing.Point(843, 245)
+        Me.PictureBox4.Location = New System.Drawing.Point(816, 245)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(76, 70)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
